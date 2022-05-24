@@ -1,0 +1,84 @@
+.mensagem{ /* Define as propriedades do texto "Mensagem" */
+    padding-top: 50px;
+    color:rgb(223, 75, 75); /* Cor RGB definida no texto */
+    padding-left: 5.6%;
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte de texto excoliha no programa*/
+}
+
+.quadradoformulario{ /* Define as propriedades do quadrado do formulário */
+    padding-top: 30px;
+    float: left;
+    padding-left: 5%;
+}
+
+.linhaFormulario{ /* Define as propriedades de cada linha do formulário */
+    border: 1px solid rgb(212, 207, 207); /* Coloca uma borda cinza ( Cor RGB definida da borda) em cada paragrafo do formulário */
+    margin: 10px;
+    height: 50px;
+}
+
+.textoForm{ /* Define as propriedades de cada label do formulário */
+    color:rgb(231, 54, 54); /* Cor RGB defina para os labels */
+    margin-right: 80px;
+    margin-left: 10px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputForm{ /* Define as propriedades de cada entrada de texto do formulário */
+    padding-top: 0px;
+    border: 0px; /* Zera os valores da borda e do padding top */
+    border-left: 1px solid rgb(212, 207, 207); /* Coloca uma borda cinza ( Cor RGB definida da borda) em cada paragrafo do formulário */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:right;
+    height: 48px;
+    width: 800px;
+    font-size: medium; /* Define o tamanho da fonte */
+    color: rgb(20, 19, 19); /* Cor RGB definida de cada entrada de texto do formulário */
+}
+
+.linhaAreaFormulario{ /* Define as propriedades do paragrafo textarea do formulário */
+    border: 1px solid rgb(212, 207, 207);
+    margin: 10px;
+    height: 120px;
+}
+
+.textoAreaForm{ /* Define as propriedades do label textarea do formulário */
+    color:rgb(253, 5, 5);
+    margin-right: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.inputareaForm{ /* Define as propriedades da entrada de texto textarea do formulário */
+    padding-top: 0px;
+    border: 0px;
+    border-left: 1px solid rgb(212, 207, 207);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    float:right;
+    height: 118px;
+    width: 800px;
+    resize: none ; /* Impede que modifique o tamanho do textarea */
+    color: rgb(20, 19, 19);
+}
+
+.botaoConfirmacao{ /* Define as propriedades do botão de confirmação */
+    margin-left: 8px;
+    width: 998px;
+    height: 50px;
+    background-color: rgb(223, 96, 12); /* Cor RGB definida para o botão */
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+label.error{ /* Define as propriedades das mensagens de erro */
+    color: rgb(255, 43, 43); /* Cor RGB definida para a mensagem do botão */
+    position:absolute; /* Permite a modificação da posição do texto */
+    left: 1120px;
+    padding-top: 15px;
+    text-align: right;
+}

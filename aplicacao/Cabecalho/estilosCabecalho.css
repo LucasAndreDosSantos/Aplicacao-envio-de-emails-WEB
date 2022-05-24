@@ -1,0 +1,31 @@
+*{
+    margin:0; /* Define todas as margens como O*/
+}
+
+.cabecalho{ /* Define a div cabeçalho */
+    background-color: rgb(206, 39, 39); /* Cor RGB definida no cabeçalho*/
+    height: 160px;
+    padding-top:20px;
+}
+.header{ /* Define os elementos do cabeçalhos */
+    padding-left: 30px ;
+}
+.logo{ /* Define o tamanho da imagem logo */
+    width: 150px;
+    height: 100px;
+    padding-left: 80px ;
+}
+.textoEmail{ /* Define as propriedades do texto */
+    font-size: large;
+    padding-left: 30px ;
+    color:white;
+    text-transform: uppercase; /* Coloca todo o texto em letra maiscúla */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte de texto excoliha no programa*/
+}
+.fraseEmail{ /* Define as propriedades da frase */
+    padding-left: 10px ;
+    color:white;
+    text-transform: uppercase;
+    font-size:x-small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
