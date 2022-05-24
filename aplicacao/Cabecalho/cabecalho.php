@@ -2,7 +2,7 @@
   <link rel="stylesheet" type="text/css" href="../Cabecalho/estilosCabecalho.css"> 
 </head>
 <body>
-  <!-- Div do cabeçalho, sendo que ela possui a imagem do email, o seu nome e a frase característica-->
+  <!-- Div do cabeçalho, sendo que ela possui a imagem do email, o nome da aplicação e uma frase explicativa-->
   <div class="cabecalho"> 
     <header class="header">
         <h1><img class= "logo" src="../../imagem/Email.png" alt="Símbolo E-mail"></h1>
